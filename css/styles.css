@@ -28,7 +28,6 @@ nav {
   height: auto;
 }
 
-
 nav li:hover {
   background: #E9FFB9;
 }
@@ -37,4 +36,17 @@ section {
   border: 1px solid #D6DDC5;
   margin: 20px;
   padding: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+ul {
+  color: #27330C;
+}
+
+p {
+  color: #27330C;
+  text-align: center;
 }
