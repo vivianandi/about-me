@@ -1,0 +1,40 @@
+body {
+  background-color: #A9AE9C;
+}
+
+header h1 {
+  text-align: center;
+  color: #27330C;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 15px;
+  color: #27330C;
+
+}
+
+nav {
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+}
+
+.image-container img {
+  width: 50%;
+  height: auto;
+}
+
+
+nav li:hover {
+  background: #E9FFB9;
+}
+
+section {
+  border: 1px solid #D6DDC5;
+  margin: 20px;
+  padding: 20px;
+}
