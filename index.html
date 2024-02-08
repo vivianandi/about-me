@@ -30,6 +30,41 @@
   <main>
 
     <section>
+      <h2>Output Section</h2>
+      <ul>
+        <li>
+          <script>
+            let name = prompt("What's your name?");
+            document.write("Hi, " + name + ", I hope you like my page!")
+          </script>
+        </li>
+        <li>
+          <script>
+            let pet = prompt("Do you prefer cats or dogs? Enter 'cat' or 'dog'.")
+            if (pet.toLowerCase() === "cat") {
+              document.write("Cats are wonderful companions!");
+            } else if (pet.toLowerCase() === "dog") {
+              document.write("Dogs are loyal friends!");
+            } else {
+              document.write("Invalid choice. Please enter either 'cat' or 'dog'.");
+            }
+          </script>
+        </li>
+        <li>
+          <script>
+            let family = confirm("Do you love your family?");
+            if (family === true) {
+              document.write("Great, me too! Meet my family below.");
+            } else {
+              document.write("You psychopath!");
+            }
+          </script>
+        </li>
+      </ul>
+
+    </section>
+
+    <section>
       <p> Meet my wonderful family!</p>
 
 
@@ -84,7 +119,7 @@
         </li>
       </ul>
 
-      <section id="friend-section">
+      <section id="friends-section">
         <img src="img/friends.jpg" alt="Photo of Friends">
       </section>
 
