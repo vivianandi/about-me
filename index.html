@@ -4,6 +4,7 @@
 <head>
   <title>All about my Family!</title>
   <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js"></script>
 </head>
 
 <body>
@@ -34,30 +35,22 @@
       <ul>
         <li>
           <script>
-            let name = prompt("What's your name?");
-            document.write("Hi, " + name + ", I hope you like my page!")
+            yourName();
           </script>
         </li>
         <li>
           <script>
-            let pet = prompt("Do you prefer cats or dogs? Enter 'cats' or 'dogs'.")
-            if (pet.toLowerCase() === "cats") {
-              document.write("Cats are wonderful companions!");
-            } else if (pet.toLowerCase() === "dogs") {
-              document.write("Dogs are loyal friends!");
-            } else {
-              document.write("Invalid choice. Please enter either 'cats' or 'dogs'.");
-            }
+            catsOrDogs() {
           </script>
         </li>
         <li>
           <script>
-            let family = confirm("Do you love your family?");
-            if (family === true) {
-              document.write("Great, me too! Meet my family below.");
-            } else {
-              document.write("You psychopath!");
-            }
+              let family = confirm("Do you love your family?");
+              if (family === true) {
+                document.write("Great, me too! Meet my family below.");
+              } else {
+                document.write("You psychopath!");
+              }
           </script>
         </li>
       </ul>
