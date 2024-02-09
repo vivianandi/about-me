@@ -76,3 +76,13 @@ function family() {
     document.write("You psychopath!");
   }
 }
+
+/*Class 08 Lab*/
+
+function rateMyPets() {
+  let rating = prompt("Rate how cute my pets are 1-10?")
+  rating = Number(rating);
+  for (let i = 0; i < rating; i++) {
+    document.write("⭐️");
+  }
+}
