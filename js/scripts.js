@@ -86,3 +86,48 @@ function rateMyPets() {
     document.write("⭐️");
   }
 }
+
+/*
+
+Add validation on one of the user inputs.
+Keep asking until an acceptable value is entered.
+
+function favoriteColorMaxGuesses() {
+
+  let numberOfGuesses = 0;
+
+  while ( numberOfGuesses < 5 ) {
+    let answer = prompt("What is your favorite color?");
+    if( answer != "black" ) {
+      alert("Boo");
+      numberOfGuesses++;
+    }
+    else {
+      alert("Yah!");
+      break; // Force Stop the while loop
+    }
+  }
+
+  document.write("Black is awesome");
+}
+*/
+
+function favoriteAnimalMaxGuesses() {
+
+  let numberOfGuesses = 0;
+
+  while (numberOfGuesses < 3) {
+    let answer = prompt("Can you guess my favorite animal?");
+
+    if (answer !== "elephant") {
+      alert("Nope, try again!");
+      numberOfGuesses++;
+    } else {
+      alert("That's correct!");
+      break; // Force stop the while loop
+    }
+  }
+
+  document.write("My favorite animal is the elephant!");
+
+}
